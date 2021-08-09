@@ -2,22 +2,22 @@ function handleTickInit(tick) {
 
     // Uncomment to set labels to different language ( in this case Dutch )
     var locale = {
-        YEAR_PLURAL: 'Jaren',
+        YEAR_PLURAL: 'YEAR',
         YEAR_SINGULAR: 'YEAR',
-        MONTH_PLURAL: 'Maanden',
-        MONTH_SINGULAR: 'Maand',
-        WEEK_PLURAL: 'Weken',
-        WEEK_SINGULAR: 'Week',
+        MONTH_PLURAL: 'MONTH',
+        MONTH_SINGULAR: 'MONTH',
+        WEEK_PLURAL: 'WEEK',
+        WEEK_SINGULAR: 'WEEK',
         DAY_PLURAL: 'DAYS',
-        DAY_SINGULAR: 'Dag',
+        DAY_SINGULAR: 'DAYS',
         HOUR_PLURAL: 'HOUR',
-        HOUR_SINGULAR: 'Uur',
+        HOUR_SINGULAR: 'HOUR',
         MINUTE_PLURAL: 'MINUTE',
-        MINUTE_SINGULAR: 'Minuut',
+        MINUTE_SINGULAR: 'MINUTE',
         SECOND_PLURAL: 'SECOND',
-        SECOND_SINGULAR: 'Seconde',
-        MILLISECOND_PLURAL: 'Milliseconden',
-        MILLISECOND_SINGULAR: 'Milliseconde'
+        SECOND_SINGULAR: 'SECOND',
+        MILLISECOND_PLURAL: 'MILLISECOND',
+        MILLISECOND_SINGULAR: 'MILLISECOND'
     };
     for (var key in locale) {
         if (!locale.hasOwnProperty(key)) {
